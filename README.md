@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+- 🏫 I'm a graduate student in NTUST
+- 🌱 I’m currently learning cybersecurity, diffusion model
+- 📫 How to reach me: jolie92lillian@gmail.com
+
+
 <!--
 **littlecutefish/littlecutefish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
