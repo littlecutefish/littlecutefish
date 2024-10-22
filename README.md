@@ -76,5 +76,9 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/littlecutefish/littlecutefish/blob/output/github-contribution-grid-snake.gif" alt="snake" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/littlecutefish/littlecutefish/blob/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/littlecutefish/littlecutefish/blob/output/github-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://github.com/littlecutefish/littlecutefish/blob/output/github-snake.svg" />
+  </picture>
 </p>
