@@ -1,64 +1,31 @@
-name: Insights
+name: insights
+
 on:
-  schedule: 
-    - cron: "0 */4 * * *"  # 修正了 cron 表達式格式
+  # run automatically every 24 hours 
+  schedule:
+    - cron: "0 */24 * * *" 
+    
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      
+
 jobs:
-  github-Insights:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+
+      - uses: Platane/snk/svg-only@v3
         with:
-          ref: data
-      
-      - name: generate github metric
-        uses: lowlighter/metrics@latest
+          github_user_name: littlecutefish
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          repositories_affiliations: owner, collaborator
-          config_display: large
-          commits_authoring: littlecutefish  # 改成你的 GitHub 用戶名
-          config_padding: 8 + 12%
-          optimize: svg
-          experimental_features: --optimize-svg
-          config_timezone: Asia/Taipei
-          base_indepth: yes
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_sections: recently-used
-          plugin_languages_recent_load: 1000
-          plugin_languages_recent_days: 180
-          plugin_languages_analysis_timeout: 60
-          plugin_languages_details: percentage, lines
-          plugin_lines: yes
-          plugin_traffic: yes
-          plugin_leetcode: yes
-          plugin_leetcode_user: thchen2002  # 如果需要的話，改成你的 LeetCode 用戶名
-          plugin_leetcode_sections: solved, skills, recent
-          output_action: none
-        
-      - name: generate snake of github contributions
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: ./github-snake.svg
+          target_branch: output
+          build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
-          
-      - name: move file
-        run: sudo mv /metrics_renders/* ./
-            
-      - name: push svg to the output branch
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add ./*.svg
-          git commit -m "update data"
-          git push
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
