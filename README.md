@@ -70,25 +70,7 @@
 </details>
 </p>
 
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=littlecutefish&show_icons=true&locale=en&layout=compact" alt="littlecutefish" /></p>
-
-
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com?user=littlecutefish" alt="littlecutefish" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=littlecutefish&show_icons=true&locale=en" alt="littlecutefish" /></p>
-
-<!--
-**littlecutefish/littlecutefish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=littlecutefish&show_icons=true&locale=en&layout=compact" alt="littlecutefish" />
+    <img width="53%" src="https://github-readme-stats.vercel.app/api?username=littlecutefish&show_icons=true&locale=en" alt="littlecutefish" />
+</p>
