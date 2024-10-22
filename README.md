@@ -5,7 +5,7 @@
 <h1 align="center">Hey Everyone 👋, I'm Jolie Liu</h1>
 
 <p align="left"> 
-    <img src="https://komarev.com/ghpvc/?username=jolie92lillian&label=Profile%20views&color=ff69b4&style=flat" alt="jolie92lillian" /> 
+    <img src="https://komarev.com/ghpvc/?username=littlecutefish&label=Profile%20views&color=ff69b4&style=flat" alt="littlecutefish" /> 
 </p>
 
 - 🏫 I'm a graduate student in NTUST
@@ -70,11 +70,13 @@
 </details>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jolie92lillian&show_icons=true&locale=en&layout=compact" alt="jolie92lillian" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jolie92lillian&show_icons=true&locale=en" alt="jolie92lillian" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=littlecutefish&show_icons=true&locale=en&layout=compact" alt="littlecutefish" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jolie92lillian&" alt="jolie92lillian" /></p>
+
+<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com?user=littlecutefish" alt="littlecutefish" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=littlecutefish&show_icons=true&locale=en" alt="littlecutefish" /></p>
 
 <!--
 **littlecutefish/littlecutefish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
