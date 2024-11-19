@@ -8,8 +8,8 @@
     <img src="https://komarev.com/ghpvc/?username=littlecutefish&label=Profile%20views&color=ff69b4&style=flat" alt="littlecutefish" /> 
 </p>
 
-- 🏫 I'm a graduate student in NTUST
-- 🌱 I'm currently learning cybersecurity, diffusion model
+- 🏫 I'm a master degree student in NTUST
+- 🌱 I'm currently learning cybersecurity, diffusion model, gen AI
 - 📫 How to reach me: jolie92lillian@gmail.com
 - 📍 From Taiwan
 
