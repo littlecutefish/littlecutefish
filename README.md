@@ -12,6 +12,7 @@
 - 🌱 I'm currently learning cybersecurity, diffusion model, gen AI
 - 📫 How to reach me: jolie92lillian@gmail.com
 - 📍 From Taiwan
+- 🌐 My website: https://littlecutefish.github.io/
 
 ## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="25"><b> Connect with me</b>
 
