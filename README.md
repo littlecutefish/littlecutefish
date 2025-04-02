@@ -9,7 +9,7 @@
 </p>
 
 - 🏫 I'm a master degree student in NTUST
-- 🌱 I'm currently learning cybersecurity, diffusion model, gen AI
+- 🌱 I'm currently learning Cybersecurity, Diffusion Model, GenAI
 - 📫 How to reach me: jolie92lillian@gmail.com
 - 📍 From Taiwan
 - 🌐 My website: https://littlecutefish.github.io/
