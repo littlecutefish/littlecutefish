@@ -80,8 +80,8 @@
 </p>
 
 <p align="center">
-    <img width="40%" src="https://littlecutefish-6m1m3ly3a-little-cute-fish.vercel.app/api/top-langs?username=littlecutefish&show_icons=true&locale=en&layout=compact" alt="littlecutefish" />
-    <img width="53%" src="https://littlecutefish-6m1m3ly3a-little-cute-fish.vercel.app/api?username=littlecutefish&show_icons=true&locale=en" alt="littlecutefish" />
+    <img width="40%" src="https://littlecutefish.vercel.app/api/top-langs?username=littlecutefish&show_icons=true&locale=en&layout=compact" alt="littlecutefish" />
+    <img width="53%" src="https://littlecutefish.vercel.app/api?username=littlecutefish&show_icons=true&locale=en" alt="littlecutefish" />
 </p>
 
 <p align="center">
