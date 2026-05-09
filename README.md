@@ -80,11 +80,6 @@
 </p>
 
 <p align="center">
-    <img width="40%" src="https://littlecutefish.vercel.app/api/top-langs?username=littlecutefish&show_icons=true&locale=en&layout=compact" alt="littlecutefish" />
-    <img width="53%" src="https://littlecutefish.vercel.app/api?username=littlecutefish&show_icons=true&locale=en" alt="littlecutefish" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/littlecutefish/littlecutefish/blob/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/littlecutefish/littlecutefish/blob/output/github-snake.svg" />
